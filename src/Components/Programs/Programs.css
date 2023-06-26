@@ -1,0 +1,56 @@
+.Programs{
+    background-color: var(--darkGrey);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.pgrm-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.pgrm-categories{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    
+}
+
+.category{
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.category>:nth-of-type(1){
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+    font-weight: bold;
+}
+
+.category>:nth-of-type(2){
+    font-size: 1rem;
+}
+
+.category>:nth-of-type(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.join{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
